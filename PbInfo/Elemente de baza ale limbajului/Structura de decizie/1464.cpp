@@ -19,9 +19,9 @@ int main() {
     */
 
     if(Cautat % 2 == 0) {
-        
+        cout << (Cautat / 2) + Cautat - 2 << Start; 
     }
     else {
-
+        cout << (Cautat / 2) + Cautat - 1 << Start;
     }
 }
