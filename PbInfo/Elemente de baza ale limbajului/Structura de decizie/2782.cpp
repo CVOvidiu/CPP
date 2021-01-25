@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -6,13 +7,15 @@ int main() {
     int HA, HB, D;
     cin >> HA >> HB >> D;
 
-    int H_max = HA;
+    /*int H_max = HA;
 
     if(HB > H_max)
         cout << HA;
     else
         cout << HB;
+    */
 
+   cout << abs(HB * HB + D * D - HA * HA) / (2 * D);
 
 }
 
